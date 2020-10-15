@@ -1,8 +1,8 @@
 .header {
   width: 100%;
   height: 70px;
-  background-color: #222;
-  color: #FFF;
+  background-color: #EEE;
+  color: #222;
 
   display: flex;
   justify-content: space-around;

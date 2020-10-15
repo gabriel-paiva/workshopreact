@@ -15,17 +15,8 @@ body {
   height: 100vh;
   
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-.titulo {
-  border: 1px solid #FFFFFF;
-  border-radius: 10px;
-  padding: 30px;
-}
-
-.titulo h1 {
-  padding: 10px;
 }
