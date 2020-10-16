@@ -5,6 +5,7 @@ import Bgimage from '../../assets/programmer.svg';
 import './styles.css'
 
 function Home() {
+
   return (
     <>
       <Header />
