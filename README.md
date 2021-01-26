@@ -1,68 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Workshop de React
 
-## Available Scripts
+Esse workshop foi ministrado nos dias 16, 17 e 31 de Outubro de 2020 para [Lab Tekh](https://labtekh.com.br) e parceiros.
 
-In the project directory, you can run:
+Todo o conteúdo teórico e prático, assim como os materiais de acompanhamento foram criados por @gabriel-paiva, @murilogds e @eliseukadesh67, que também ministraram as aulas.
 
-### `yarn start`
+## Conteúdo Teórico
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* O que é React?
+* Como o React funciona?
+* Introdução a JSX
+* React Hooks
+* Protocolo HTTP
+* Renderização Condicional
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Conteúdo Prático
 
-### `yarn test`
+* Iniciando projeto com Create-react-app
+* Criação e estilização de Páginas
+* Criação e estilização de Componentes
+* Adicionando imagens
+* Criação de rotas
+* Usando Hooks: useState e useEffect
+* Renderizando elementos condicionalmente
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Resultados
+<img align="center" alt="Página Inicial do Workshop" width="500px" src="./images/resultado01.png" />
 
-### `yarn build`
+<br/>
+<br/>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img align="center" alt="Segunda Página do Workshop" width="500px" src="./images/resultado02.png" />
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<br/>
+<br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img align="center" alt="Segunda Página do Workshop com dados" width="500px" src="./images/resultado03.png" />
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Rodando o projeto
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone o projeto com o comando:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+``` 
+git clone https://github.com/gabriel-paiva/workshopreact
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+2. Entre na pasta do projeto
+``` 
+cd workshopreact
+```
 
-## Learn More
+3. Instale as dependências
+``` 
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Suba o servidor
+``` 
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+5. Acesse o projeto pelo navegador na URL: localhost:3000
